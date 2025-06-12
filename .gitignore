@@ -1,0 +1,18 @@
+# Pliki danych
+dane.csv
+books_with_emotions.csv
+
+# Wirtualne środowisko
+venv/
+.venv/
+
+# Pliki środowiskowe
+.env
+
+# Pliki systemowe
+__pycache__/
+*.pyc
+.DS_Store
+
+# Notebooks (jeśli masz)
+.ipynb_checkpoints/
