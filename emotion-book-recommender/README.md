@@ -1,8 +1,11 @@
-Book Advisor
+### Book Advisor
 
 Book Advisor is an AI-powered web application that recommends books based on your emotional state. Simply describe how you're feeling, and the application will analyze your emotions and suggest books that match your mood.
 
 ![Home Page](/emotion-book-recommender/images/home_page.png)
+![Emotion](/emotion-book-recommender/images/sadness_book.png)
+![Book](/emotion-book-recommender/images/book.png)
+![Chat](/emotion-book-recommender/images/chat.png)
 
 ## Features
 
