@@ -7,6 +7,15 @@ Book Advisor is an AI-powered web application that recommends books based on you
 ![Book](/emotion-book-recommender/images/book.png)
 ![Chat](/emotion-book-recommender/images/chat.png)
 
+## Dataset
+
+This application uses a static dataset that needs to be downloaded separately:
+
+- **Dataset**: [Comprehensive Overview of 52,478 Goodreads Best Books](https://www.kaggle.com/datasets/thedevastator/comprehensive-overview-of-52478-goodreads-best-b)
+- **Contents**: Contains information about 52,478 books including titles, authors, descriptions, ratings, and genres
+
+Note: The book recommendations are based on this static dataset. The application does not fetch real-time data.
+
 ## Features
 
 - **Emotion-Based Book Recommendations**: Get personalized book recommendations based on your current emotional state
