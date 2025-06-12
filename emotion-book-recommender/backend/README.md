@@ -1,58 +1,51 @@
-# Emotion Book Recommender
+# Book Advisor
 
-## Overview
-The Emotion Book Recommender is a web application that allows users to input their current feelings and receive personalized book recommendations based on those emotions. The application leverages natural language processing to analyze user input and match it with suitable book titles.
+Book Advisor is an AI-powered web application that recommends books based on your emotional state. Simply describe how you're feeling, and the application will analyze your emotions and suggest books that match your mood.
 
-## Backend
+![Home Page](images/home-page.png)
 
-### Directory Structure
-- `src/`
-  - `emotion_analyzer.py`: Contains the logic for analyzing emotions from text input using a pre-trained model.
-  - `recommender.py`: Responsible for providing book recommendations based on detected emotions.
-  - `main.py`: Entry point for the backend application, setting up the server and handling requests.
+## Features
 
-### Requirements
-To run the backend application, ensure you have the following dependencies installed:
-- pandas
-- transformers
-- tqdm
+- **Emotion-Based Book Recommendations**: Get personalized book recommendations based on your current emotional state
+- **Book Details**: View detailed information about each recommended book
+- **AI-Powered Q&A**: Ask questions about books and get AI-generated answers
+- **Pre-defined Questions**: Quick access to common questions about books
+- **Responsive Design**: Works on desktop and mobile devices
 
-You can install the required packages using:
-```
-pip install -r requirements.txt
-```
+## Technologies Used
 
-### Running the Backend
-1. Navigate to the `backend` directory.
-2. Run the main application:
-```
-python src/main.py
-```
-3. The server will start, and you can make requests to analyze emotions and get book recommendations.
+### Frontend
 
-## Frontend
-The frontend of the application is built using React. It allows users to input their feelings and view book recommendations.
+- React.js
+- React Router
+- Axios for API requests
+- Lucide React for icons
+- CSS for styling
 
-### Directory Structure
-- `src/`
-  - `App.js`: Main component managing application state.
-  - `components/`
-    - `EmotionInput.js`: Component for user input of feelings.
-    - `BookList.js`: Component for displaying book recommendations.
+### Backend
 
-### Running the Frontend
-1. Navigate to the `frontend` directory.
-2. Install the required packages:
-```
-npm install
-```
-3. Start the frontend application:
-```
-npm start
-```
+- Flask (Python web framework)
+- Transformers library for emotion detection
+- Google Gemini AI for answering book-related questions
+- Pandas for data manipulation
 
-## Contribution
-Feel free to contribute to the project by submitting issues or pull requests. Your feedback and suggestions are welcome!
+## Development Approach: Vibe Coding with LLMs
 
-## License
-This project is open-source and available under the MIT License.
+This project was developed using the vibe coding approach — a creative and experimental workflow where most of the code was generated using large language models (LLMs) such as ChatGPT and Google Gemini. From backend routes and Flask integration to frontend UI logic in React, LLMs played a key role in accelerating development, solving bugs, and brainstorming ideas.
+
+By leveraging LLMs throughout the development process, I was able to:
+
+- Rapidly prototype new features
+- Generate boilerplate code without manual repetition
+- Refine components based on natural language prompts
+- Quickly explore multiple implementation paths and compare them
+
+This project is not only about books — it's also a reflection of how AI can assist developers in real-time coding workflows.
+
+## Installation
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- Python 3.8 or higher
+- pip (Python package manager)
